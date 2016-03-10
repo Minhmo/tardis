@@ -27,6 +27,8 @@ class TestSimpleRun():
     """
     Very simple run
     """
+
+
     @classmethod
     @pytest.fixture(scope="class", autouse=True)
     def setup(self):
